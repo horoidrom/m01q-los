@@ -15,7 +15,7 @@
 #
 
 COMMON_PATH := device/samsung/m01q
-
+PRODUCT_VENDOR_MOVE_ENABLED := true
 # Build
 BUILD_BROKEN_DUP_RULES := true
 TARGET_USES_VULKAN := true

@@ -96,7 +96,7 @@ endif
 
 ifeq ($(TARGET_KERNEL_VERSION),)
 $(info "WLAN: TARGET_KERNEL_VERSION is not defined, assuming default")
-TARGET_KERNEL_SOURCE := kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/m01q
 KERNEL_TO_BUILD_ROOT_OFFSET := ../
 endif
 
